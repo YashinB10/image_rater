@@ -1,0 +1,50 @@
+{
+    "images": [
+        {
+            "path": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wallpaperflare.com_wallpaper (1).jpg",
+            "rating": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wallpaperflare.com_wallpaper (1).jpg"
+        },
+        {
+            "path": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wallpaperflare.com_wallpaper (2).jpg",
+            "rating": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wallpaperflare.com_wallpaper (2).jpg"
+        },
+        {
+            "path": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wallpaperflare.com_wallpaper (3).jpg",
+            "rating": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wallpaperflare.com_wallpaper (3).jpg"
+        },
+        {
+            "path": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wallpaperflare.com_wallpaper (4).jpg",
+            "rating": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wallpaperflare.com_wallpaper (4).jpg"
+        },
+        {
+            "path": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wallpaperflare.com_wallpaper (5).jpg",
+            "rating": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wallpaperflare.com_wallpaper (5).jpg"
+        },
+        {
+            "path": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wallpaperflare.com_wallpaper (6).jpg",
+            "rating": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wallpaperflare.com_wallpaper (6).jpg"
+        },
+        {
+            "path": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wallpaperflare.com_wallpaper.jpg",
+            "rating": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wallpaperflare.com_wallpaper.jpg"
+        },
+        {
+            "path": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wp7441841-green-aesthetic-anime-wallpapers.jpg",
+            "rating": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wp7441841-green-aesthetic-anime-wallpapers.jpg"
+        },
+        {
+            "path": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wp7698963-anime-laptop-4k-wallpapers.jpg",
+            "rating": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wp7698963-anime-laptop-4k-wallpapers.jpg"
+        },
+        {
+            "path": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wp9189412-hd-4k-anime-landscape-wallpapers.jpg",
+            "rating": "C:\\Users\\yashi\\Documents\\Applications programmation\\imageRater\\Images\\wp9189412-hd-4k-anime-landscape-wallpapers.jpg"
+        }
+    ],
+    "stats": {
+        "mean": 7.4,
+        "min": 3,
+        "max": 9,
+        "count": 10
+    }
+}
