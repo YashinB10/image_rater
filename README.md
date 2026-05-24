@@ -1,204 +1,134 @@
-&#x20;Image Rater
+# Image Rater
+
+My Python program allows users to rate multiple images and receive statistics about them.
 
 
+| Project Overview |
 
-A Python application that allows users to rate images and automatically compute statistics.
+I used a simple graphical interface (Tkinter GUI) that allows users to:
 
-
-
-&#x20;Overview
-
-
-
-This project provides a simple graphical interface to:
+- Browse images stored inside a folder
+- Give each image a rating from 0 to 10
+- Receive statistics at the end
+- Save the results into a JSON file
 
 
+| Features |
 
-\- Browse images from a folder
-
-\- Rate each image from 0 to 10
-
-\- Compute statistics on the ratings
-
-\- Save results to a JSON file
-
+- Dynamic graphical interface
+- Rating system
+- Multiple statistics (mean, max, min, number of images used)
+- Automatic export of results into a JSON file
+- Modular architecture with separated logic
 
 
-&#x20;Features
+| Tech Stack |
+
+- Python (everything is based on it)
+- Tkinter (GUI)
+- Pillow for image handling
 
 
-
-\- Dynamic image display (Tkinter GUI)
-
-\- Rating system (0–10)
-
-\- Statistics computation (mean, min, max, count)
-
-\- JSON export of results
-
-\- Modular architecture (separated logic)
-
-
-
-&#x20;Tech Stack
-
-
-
-\- Python
-
-\- Tkinter (GUI)
-
-\- Pillow (image processing)
-
-
-
-&#x20;Project Structure
-
-
+| Project Structure |
 
 src/
-
-&#x20; gui.py
-
-&#x20; image\_loader.py
-
-&#x20; rating.py
-
-&#x20; stats.py
-
-&#x20; storage.py
+| gui.py
+| image_loader.py
+| rating.py
+| stats.py
+| storage.py
 
 
 
-&#x20;How to Run
+| How to Run the Program |
 
+In the terminal, type:
 
 
 pip install -r requirements.txt
+
+Then run:
+
 
 python src/gui.py
 
 
 
-&#x20;Example Output
-
-
-
-```
+| Example Output |
 
 {
-
-&#x20; "images": \[
-
-&#x20;   {"path": "image1.jpg", "rating": 8}
-
-&#x20; ],
-
-&#x20; "stats": {
-
-&#x20;   "mean": 8,
-
-&#x20;   "min": 8,
-
-&#x20;   "max": 8,
-
-&#x20;   "count": 1
-
-&#x20; }
-
+  "images": [
+    {"path": "image1.jpg", "rating": 8}
+  ],
+  "stats": {
+    "mean": 8,
+    "min": 8,
+    "max": 8,
+    "count": 1
+  }
 }
 
-```
+
+
+| Personal Notes |
+
+I created this project while focusing on:
+
+- Clean code
+- An organized modular system
+- Separation of responsibilities
 
 
 
-&#x20;Notes
+| Possible Future Improvements |
 
-
-
-This project was built with a focus on:
-
-
-
-\- clean code
-
-\- modular design
-
-\- separation of concerns
-
-
-
-&#x20;Future Improvements
-
-
-
-\- Folder selection via GUI (file dialog)
-
-\- Better UI/UX
-
-\- Image preview enhancements
-
-\- Export formats (CSV, etc.)
+- Folder selection through the GUI (file dialog)
+- Better UI/UX
+- Improved image previews
+- More export formats (CSV, etc.)
 
 
 
 
 
 
+|| About This Project ||
 
-&#x20;About This Project
-
-
-
-This is my first real programming project as a high school student (seconde).
+This is my first Python project, created while I was in high school (seconde).
+I made it to improve my programming skills, learn new concepts, and understand how a real Python project is organized.
 
 
+| My Working Method |
 
-I built this project to improve my programming skills and understand how to structure a complete application.
+I used ChatGPT a lot during this project because I didn't know how to organize a real project at first , and it taught me many things during the development process.
 
+I used it as a learning tool,  not as a shortcut.
 
+Every time I did not know how to do something or did not understand a concept:
 
-&#x20;My Approach
+- I asked for detailed explanations
+- I did not continue the project until I fully understood the concept
+- I made sure I was able to reproduce the logic by myself without help
 
-
-
-While working on this project, I used ChatGPT as a learning tool , not as a shortcut.
-
-
-
-Whenever I didn’t understand something:
-
+This approach allowed me to truly understand the concepts and programming logic instead of just copying code blindly.
 
 
-\- I asked for detailed explanations
+| What I Learned |
 
-\- I made sure I fully understood the concept
+- How to organize a project with multiple modules
+- How to build a simple GUI with Tkinter
+- How to manage different application states
+- How to handle errors and edge cases
+- How to write cleaner and more maintainable code
 
-\- I did not continue until I was able to reproduce the logic on my own
+| Conclusion |
 
+I am realllyyy happy with my first project, it taught me many things about organizing real projects and helped me discover many new programming concepts .
 
+This project is an important step in my learning journey !!!!
 
-This approach allowed me to actually learn and not just copy code.
+Thank you a lot for reading
 
-
-
-&#x20;What I Learned
-
-
-
-\- Structuring a Python project into multiple modules
-
-\- Building a simple GUI with Tkinter
-
-\- Managing application state (images, index, ratings)
-
-\- Handling errors and edge cases
-
-\- Writing cleaner and more maintainable code
-
-
-
-This project represents an important step in my learning journey.
 
 
 
